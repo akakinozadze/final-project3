@@ -1,0 +1,116 @@
+.body {
+    background-color: #FFFFFF;
+}
+
+.header {
+    max-width: 1210px;
+    min-height: 50px;
+    /* background-color: darkgoldenrod; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box2 {
+    display: flex;
+    max-width: 638px;
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 586px;
+    height: 25px;
+    /* background-color: aquamarine; */
+}
+
+.navigation {
+    width: 58px;
+    width: 100%;
+    /* background-color: chocolate; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #141414;
+    font-family: 'Open Sans';
+}
+
+.search-icon {
+    margin-left: 20px;
+}
+
+/* ! section-1 */
+.section-1 {
+    margin-top: 154px;
+}
+
+.section1-box {
+    max-width: 1210px;
+    height: 758px;
+    background-image: url(../image/Rectangle1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+
+.section1-h2 {
+    font-size: 65px;
+    color: #FFFFFF;
+    line-height: 125%;
+    font-weight: 500;
+    max-width: 699px;
+    min-height: 162px;
+    font-family: 'Cabin';
+    text-align: left;
+    padding-top: 73px;
+    padding-left: 24px;
+}
+
+.section1-pharagrap {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1%;
+    color: #FFFFFF;
+    max-width: 470px;
+    min-height: 66px;
+    padding-top: 9px;
+    padding-left: 24px;
+    font-family: 'Merriweather';
+}
+
+.section1-Get-Started {
+    max-width: 227.14px;
+    min-height: 75px;
+    background-color: #CDA274;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 2%;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    border: none;
+    width: 100%;
+    border-radius: 18px;
+    margin-top: 28px;
+    margin-left: 25px;
+    transition: all;
+    transition-duration: 0.4s;
+
+}
+.section1-Get-Started:hover {
+    box-shadow: 10px 10px 20px;
+}
+.section1-arrow {
+    margin-left: 10px;
+}
