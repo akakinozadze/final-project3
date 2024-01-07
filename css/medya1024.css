@@ -1,0 +1,14 @@
+@media (min-width:750px) and (max-width:1024px) {
+    .box-logo {
+        max-width: 147px;
+        background-color: aqua;
+    }
+    .logo {
+        width: 100%;
+    }
+    .header-box2 {
+        max-width: 510px;
+        background-color: aquamarine;
+    }
+    
+}

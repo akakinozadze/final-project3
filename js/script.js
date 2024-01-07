@@ -1,6 +1,9 @@
-let navigationJs1 = document.getElementById("navigationjs");
-let burgerjs1 = document.getElementById("burgerjs");
+let ulelement = document.getElementById("ul1");
+let burgerelement = document.getElementById("burger1");
 
-burgerjs1.addEventListener("click",function(){
-    navigationJs1.classList.toggle("newnavigation");
-}) ;
+burgerelement.addEventListener("click", function () {
+    ulelement.classList.toggle("newUl");
+});
+
+
+let 
