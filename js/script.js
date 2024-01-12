@@ -6,4 +6,10 @@ burgerelement.addEventListener("click", function () {
 });
 
 
-let 
+let searchelement = document.getElementById("searchForm");
+let search1element = document.getElementById ("searchSearch");
+
+search1element.addEventListener("click", function(){
+    searchelement.classList.toggle("newsearch");
+});
+

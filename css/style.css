@@ -46,7 +46,9 @@
 .navigation:hover {
     color: #CDA274;
 }
-
+.search.newsearch {
+    display: none;
+}
 .search-icon {
     margin-left: 20px;
     transition: all;
