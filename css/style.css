@@ -8,18 +8,13 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-
+    align-items: center; 
 }
 
 .header-box2 {
-    display: flex;
+    display: flex; 
     max-width: 638px;
     width: 100%;
-    position: absolute;
-    top: 12.5px;
-    right: 0;
 }
 
 .ul {
@@ -28,8 +23,6 @@
     width: 100%;
     justify-content: space-between;
     max-width: 586px;
-    height: 25px;
-    position: absolute;
 }
 
 .navigation {
@@ -50,12 +43,9 @@
     display: none;
 }
 .search-icon {
-    margin-left: 20px;
+    display: flex;
     transition: all;
     transition-duration: 0.2s;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 .search-icon:hover {
     stroke: #CDA274;
@@ -66,13 +56,13 @@
 .search {
     max-width: 300px;
     width: 100%;
-    display: flex;
     margin: auto;
+    display: flex;
 }
 
 /* ! section-1 */
 .section-1 {
-    margin-top: 154px;
+    margin-top: 195px;
 }
 
 .section1-box {

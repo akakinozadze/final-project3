@@ -2,6 +2,7 @@
     .search-icon {
         /* background-color: blue; */
         display: flex;
+        justify-content: right;
     }
 
     .ul {
@@ -9,7 +10,8 @@
     }
 
     .header-box2 {
-        /* justify-content: end; */
+        display: flex;
+        justify-content: end;
     }
 
     .burger {
@@ -18,43 +20,30 @@
         height: 23px;
     }
 
-    .search-icon1 {
-        margin-right: 10px;
-    }
-
-
-
     .ul.newUl {
-        display: block;
+        display: none;
     }
 
     .ul {
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        /* justify-content: center;
-        align-content: center; */
+        position: fixed;
         width: 100%;
         height: 150px;
-        margin-top: 65px;
-        background-color: aquamarine;
+        margin-top: 80px;
+    }
+
+    .navigation1:hover {
+        border-bottom: 2px solid #CDA274;
+    }
+
+    .navigation1 {
+        transition: all;
+        transition-duration: 0.2;
+        color: black;
     }
 
     .navigation {
-        margin-top: 1px;
-        /* padding-top:4px; */
-        width: 100%;
-        height: 24px;
-
+        text-align: right;
     }
-
-    .navigation:hover {
-        border-bottom: 1px solid black;
-
-    }
-    /* .nav {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        background-color: ;
-    } */
 }
