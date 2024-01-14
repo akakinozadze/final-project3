@@ -1,8 +1,11 @@
 @media (min-width:300px) and (max-width:750px) {
     .search-icon {
-        /* background-color: blue; */
         display: flex;
         justify-content: right;
+    }
+
+    .search-icon1 {
+        margin-right: 10px;
     }
 
     .ul {
