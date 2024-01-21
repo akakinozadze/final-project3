@@ -49,4 +49,42 @@
     .navigation {
         text-align: right;
     }
+    .search {
+        margin: auto;
+        width: 100%;
+    }
+    /* ! section 1 */
+    .section1-box {
+        max-width: 750px;
+        min-height: 558px;
+    }
+    .section1-h2 {
+        font-size: 35px;
+    }
+    .section1-pharagrap {
+      font-size: 18px;
+    }
+    .section1-Get-Started {
+        max-width: 180px;
+        min-height: 55px;
+    }
+     /* ! section 2 */
+     .section2-main-box {
+        max-width: 750px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        width: 90%;
+       
+     }
+     .section2-box-son {
+        max-width: 240px;
+        min-height: 160px;
+     }
+     .section2-h3 {
+        font-size: 18px;
+     }
+     .section2-pharagrp {
+        font-size: 16px;
+     }
 }

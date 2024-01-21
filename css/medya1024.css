@@ -12,4 +12,37 @@
     .ul {
         padding-right: 25px;
     }
+    /* ! section 1 */
+
+    .section1-box {
+        max-width: 1024px;    
+    }
+    .section1-h2 {
+        font-size: 55px;
+        max-width: 599px;
+    }
+    .section1-pharagrap {
+        font-size: 20px;
+    }
+    .section1-Get-Started {
+        max-width: 200px;
+        min-height: 65px;
+    }
+    /* ! section 2 */
+    .section2-main-box {
+        max-width: 1024px;
+        display: flex;
+        column-gap: 15px;
+    }
+    .section2-box-son {
+        max-width: 258px;
+        min-height: 198px;
+        width: 100%;   
+    }
+    .section2-h3 {
+        font-size: 22px;
+    }
+    .section2-pharagrp {
+        font-size: 18px;
+    }
 }
