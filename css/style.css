@@ -243,3 +243,107 @@
   padding-left: 25px;
   width: 100%;
 }
+.section-3-son-box {
+  max-width: 277px;
+  min-height: 93px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.section-3-icon-box {
+  max-width: 93px;
+  height: 93px;
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+.section-3-icon {
+  object-fit: cover;
+  width: 100%;
+  max-width: 32px;
+  height: 32px;
+}
+.section-3-contact {
+  max-width: 169px;
+  min-height: 64px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.section-3-phone {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 150%;
+  color: #ffffff;
+  font-family: "Merriweather";
+}
+.section-3-pharagrap-2 {
+  font-family: "Merriweather";
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 150%;
+  font-weight: 500;
+}
+.section-3-Get-FreeEstimate {
+  background-color: #cda274;
+  max-width: 247px;
+  min-height: 75px;
+  width: 100%;
+  border-radius: 18px;
+  font-family: "Open Sans";
+  border:none;
+  color: #FFFFFF;
+  font-size: 18px;
+  letter-spacing: 125%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 47px;
+  margin-left: 25px;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.section-3-Get-FreeEstimate:hover {
+  box-shadow: 10px 10px 20px;
+}
+.section-3-vector {
+  margin-left: 10px;
+}
+/* ! section-4 */
+.section-4-main {
+  max-width: 1210px;
+  min-height: 679px;
+  background-color:#D8A876 ;
+  border-radius: 22px;
+  margin: auto;
+  margin-top: 209px;
+  /* display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+.section-4-h4 {
+  max-width: 547px;
+  min-height: 126px;
+  color: #FFFFFF;
+  font-size: 50px;
+  letter-spacing: 125%;
+  text-align: center;
+  font-family: "Cabin";
+  font-weight: 500;
+  padding-top: 88px;
+  margin: auto;
+  border-bottom: 2px solid rgb(231, 227, 221);
+}
+.section-4-mother-box {
+  max-width: 1150px;
+  min-height: 339px;
+  width: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 38px;
+}
